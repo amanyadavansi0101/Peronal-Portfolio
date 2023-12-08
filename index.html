@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/201273b40f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "image/logo.png4" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Aman </span><br> Yadav From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about--- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src ="/image/image.png.jpg"> 
+                </div>
+                <div class="about-col-2">
+                     <h1 class="=sub-title">About Me</h1>
+                     <p>I'm a Web developer. I'm bringing the creativity of the IT industry and the precision of journalism to a webpage near you. Coding has become a perfect union of my two favourite passions and I love seeing the results of my efforts helping the user's experience.
+                        I'm finding unique solutions to complex problems and I'm doing it all while making the worst puns you've never heard before.</p>
+
+                     <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')" >skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span></li>
+                            <li><span>Machine Learning</span></li>
+                            <li><span>Data Science</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>SQL</span></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>July 2022 - Present</span><br>
+                                • Revamped web application security applications, minimizing hacker attacks from 2% to 0.03%.<br>
+                                • Designed and developed a user-friendly website, including an optimized check-out page that increased user clicks, and subsequently customer purchases by 15%.
+                                Trained over 30 staff members in internal web functions.
+                                Fixed bugs from existing websites and implemented enhancements that improved functionality and efficiency by 25%.</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021-Current</span><br>B.Tech From ABES Engineering College</li>
+                            <li><span>2021</span><br>B.Sc From UPRTOU Allahabad</li>
+                            <li><span>2018</span><br>12th From UP Board With 72.8%</li>
+                            <li><span>2016</span><br>10th From UP Board With 86.66%</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------Services------ -->
+<div id="Services">
+    <div class="container">
+        <h1 class="=sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Web Developer with five years of experience managing multiple website and web application design projects. Adept at developing creative and functional designs, web page layouts, color schemes, and infrastructure to maintain a cohesive website consistent with clients' needs.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Desgin</h2>
+                <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.A web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.Python def keyword is used to define a function, it is placed before a function name that is provided by the user to create a user-defined function.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------portfolio-------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/cc.png">
+                <div class="layer">
+                    <h3>Celebrity Image Classifier</h3>
+                    <p>Image classification is a supervised learning
+                        problem: define a set of target classes (objects to identify
+                        in images), and train a model to recognize them using
+                        labelled example photos.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Hand.png1">
+                <div class="layer">
+                    <h3>Hand Gesture Reconition</h3>
+                    <p>he MediaPipe Gesture Recognizer task lets you recognize hand gestures in real time, and provides the recognized hand gesture results along with the landmarks of the detected hands</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/music.png1">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!---------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>amanyadavansi0@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7618876964</p>
+                <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/my cv.pdf" download="" class="btn btn2">Download CV</a>
+        </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required ></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Aman.</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+<script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbwrQOxU_DZ-qTL_jVNgna3V2EJUx0VmtgBqSCgIOo_5avmcmwMY5e0tksRuHgnX-7El/exec"
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener("submit", e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: "POST", body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error("Error!", error.message))
+    })
+  </script>
+</html>
